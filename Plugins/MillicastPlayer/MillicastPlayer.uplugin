@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1.3,
+	"VersionName": "1.3",
+	"FriendlyName": "MillicastPlayer",
+	"Description": "Play a millicast stream in texture 2D",
+	"Category": "Media Players",
+	"CreatedBy": "Millicast",
+	"CreatedByURL": "https://millicast.com",
+	"DocsURL": "https://docs.millicast.com/docs/millicast-player-plugin",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"SupportedTargetPlatforms": [ "Win64", "Linux" ],
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MillicastPlayer",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [ "Win64", "Linux" ],
+			"EngineVersion": "4.27.0"
+		},
+		{
+			"Name": "MillicastPlayerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [ "Win64", "Linux" ],
+			"EngineVersion": "4.27.0"
+		}
+	]
+}

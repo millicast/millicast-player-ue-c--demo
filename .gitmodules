@@ -1,0 +1,3 @@
+[submodule "Plugins/MillicastPlayer"]
+	path = Plugins/MillicastPlayer
+	url = https://github.com/millicast/millicast-player-unreal-engine-plugin.git
